@@ -100,9 +100,11 @@ p {
   background-image: url("../img/bg2.avif");
   height: 90vh;
   width: 100%;
-  background-position: top 25% right 0;
+  /* background-position: top 25% right 0; */
+  background-position: center;
   background-size: cover;
-  padding: 0 80px;
+  background-repeat: no-repeat;
+  padding: 0 80px 20px 80px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
